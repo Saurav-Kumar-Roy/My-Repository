@@ -1,0 +1,25 @@
+/* Basic styling for the form */
+  /* Optional: Styling for select inputs */
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Optional: Adjust font and spacing for better readability */
+  label, select {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 5px; /* Adjust spacing between checkbox and label */
+  }
+  
